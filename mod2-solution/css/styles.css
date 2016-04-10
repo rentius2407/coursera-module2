@@ -15,14 +15,29 @@ h1 {
 }
 
 .col-content {
-    margin: 10px; border: 1px solid black;
+    position: relative;
+    margin: 10px; 
+    border: 1px solid black;
     padding: 10px;
 }
 
-.sectionTitle {
-    position: relative;
-    top: 0px;
-    right: 1px;
+.section-title {
+    position: absolute; 
+    top: 0px; 
+    right: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.section-content {
+    margin-top: 20px;
+}
+
+#section-one-title {
+    background-color: blue;
+    color: white;
 }
 
 /********** Desktop **********/
@@ -30,7 +45,7 @@ h1 {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
         margin-top: 5px;
-     }
+    }
     .col-lg-1 {
         width: 8.33%;
     }
