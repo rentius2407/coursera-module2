@@ -36,7 +36,7 @@ h1 {
 }
 
 #section-one-title {
-    background-color: black;
+    background-color: #7B797A;
     color: white;
 }
 
@@ -52,6 +52,16 @@ h1 {
 
 #section-two-content {
     background-color: #0C4FC2;
+    color: white;
+}
+
+#section-three-title {
+    background-color: #87C846;
+    color: black;
+}
+
+#section-three-content {
+    background-color: #086A97;
     color: white;
 }
 
