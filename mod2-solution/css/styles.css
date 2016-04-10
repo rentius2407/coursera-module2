@@ -36,7 +36,22 @@ h1 {
 }
 
 #section-one-title {
-    background-color: blue;
+    background-color: black;
+    color: white;
+}
+
+#section-two-title {
+    background-color: #D7F300;
+    color: black;
+}
+
+#section-one-content {
+    background-color: #00B2CA;
+    color: white;
+}
+
+#section-two-content {
+    background-color: #0C4FC2;
     color: white;
 }
 
